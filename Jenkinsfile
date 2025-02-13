@@ -10,6 +10,7 @@ pipeline {
             steps {
                 script {
                         sh 'mvn package'  // Use `sh` for Linux/macOS
+			echo "compile the project"
                     
                 }
             }
